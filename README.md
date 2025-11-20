@@ -28,16 +28,20 @@ cd backend
 npm install
 ```
 # Crie o arquivo .env (veja a seção abaixo "Configuração da IA")
+```
 npm run dev
+```
 
 
 ### 2. Configuração do Frontend
 Abra um **segundo terminal** na raiz do projeto e execute:
 
+```
 bash
 cd frontend
 npm install
 npm run dev
+```
 
 📍 **Acesse a aplicação em:** `http://localhost:5173`
 
