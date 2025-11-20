@@ -13,7 +13,7 @@ O repositório está organizado em duas camadas principais:
 - **`frontend/`**: Aplicação React (Vite) com Tailwind CSS e reconhecimento de voz.
 - **`backend/`**: API Node.js (Express) que gerencia a lógica de IA.
 
-- ---
+----
 
 ## 🚀 Instruções de Instalação e Execução
 
@@ -75,6 +75,17 @@ Endpoint responsável por receber o texto bruto e retornar a análise clínica.
   {
     "text": "Doutor, estou com dor de cabeça..."
   }
+
+  {
+  "dialogo_estruturado": [
+    {"falante": "Paciente", "texto": "Estou com dor de cabeça."},
+    {"falante": "Médico", "texto": "Há quanto tempo?"}
+  ],
+  "diagnostico_provavel": "Cefaleia Tensional",
+  "doencas_associadas": ["Enxaqueca", "Sinusite"],
+  "exames_sugeridos": ["Tomografia Computadorizada"],
+  "medicamentos_comuns": ["Dipirona", "Ibuprofeno"]
+} 
   ```
 
 ## 🛠️ Stack Tecnológica
