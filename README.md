@@ -26,7 +26,8 @@ Abra um terminal na raiz do projeto e execute:
 cd backend
 npm install
 # Crie o arquivo .env (veja a seção abaixo "Configuração da IA")
-npm run dev```
+npm run dev
+```
 
 ### 2. Configuração do Frontend
 Abra um **segundo terminal** na raiz do projeto e execute:
@@ -50,8 +51,7 @@ Este projeto utiliza a **Groq Cloud** para processamento de linguagem natural de
 
 ```env
 OPENAI_API_KEY=sua_chave_da_groq_aqui
----
-
+```
 ---
 
 ## 📡 Documentação da API
@@ -64,10 +64,12 @@ Endpoint responsável por receber o texto bruto e retornar a análise clínica.
 - **URL:** `http://localhost:3000/api/diagnose`
 - **Formato:** JSON
 - **Body da Requisição:**
+- 
   ```json
   {
     "text": "Doutor, estou com dor de cabeça..."
   }
+  ```
 
 - **Frontend:** React, TypeScript, Tailwind CSS, Lucide Icons, Web Speech API.
 - **Backend:** Node.js, Express, TypeScript, OpenAI SDK (Adapter Groq).
