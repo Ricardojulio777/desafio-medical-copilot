@@ -27,6 +27,7 @@ cd backend
 npm install
 # Crie o arquivo .env (veja a seção abaixo "Configuração da IA")
 npm run dev
+
 ```
 
 ### 2. Configuração do Frontend
@@ -71,6 +72,7 @@ Endpoint responsável por receber o texto bruto e retornar a análise clínica.
   }
   ```
 
+## 🛠️ Stack Tecnológica
 - **Frontend:** React, TypeScript, Tailwind CSS, Lucide Icons, Web Speech API.
 - **Backend:** Node.js, Express, TypeScript, OpenAI SDK (Adapter Groq).
 - **IA:** Modelo `llama-3.3-70b-versatile`.
