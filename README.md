@@ -22,21 +22,22 @@ Para rodar o projeto, é necessário executar o Backend e o Frontend simultaneam
 ### 1. Configuração do Backend
 Abra um terminal na raiz do projeto e execute:
 
-```bash
+```
+bash
 cd backend
 npm install
+```
 # Crie o arquivo .env (veja a seção abaixo "Configuração da IA")
 npm run dev
 
-```
 
 ### 2. Configuração do Frontend
 Abra um **segundo terminal** na raiz do projeto e execute:
 
-```bash
+bash
 cd frontend
 npm install
-npm run dev```
+npm run dev
 
 📍 **Acesse a aplicação em:** `http://localhost:5173`
 
@@ -65,8 +66,8 @@ Endpoint responsável por receber o texto bruto e retornar a análise clínica.
 - **URL:** `http://localhost:3000/api/diagnose`
 - **Formato:** JSON
 - **Body da Requisição:**
-- 
-  ```json
+
+  ```
   {
     "text": "Doutor, estou com dor de cabeça..."
   }
