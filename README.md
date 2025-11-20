@@ -52,7 +52,6 @@ Este projeto utiliza a **Groq Cloud** para processamento de linguagem natural de
 OPENAI_API_KEY=sua_chave_da_groq_aqui
 ---
 
-```markdown
 ---
 
 ## 📡 Documentação da API
