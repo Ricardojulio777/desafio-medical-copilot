@@ -22,8 +22,7 @@ Para rodar o projeto, é necessário executar o Backend e o Frontend simultaneam
 ### 1. Configuração do Backend
 Abra um terminal na raiz do projeto e execute:
 
-```
-bash
+```bash
 cd backend
 npm install
 ```
@@ -36,8 +35,8 @@ npm run dev
 ### 2. Configuração do Frontend
 Abra um **segundo terminal** na raiz do projeto e execute:
 
-```
-bash
+```bash
+
 cd frontend
 npm install
 npm run dev
@@ -71,21 +70,19 @@ Endpoint responsável por receber o texto bruto e retornar a análise clínica.
 - **Formato:** JSON
 - **Body da Requisição:**
 
-  ```
-  {
-    "text": "Doutor, estou com dor de cabeça..."
-  }
+ - **Exemplo de Resposta:**
 
+  ```json
   {
-  "dialogo_estruturado": [
-    {"falante": "Paciente", "texto": "Estou com dor de cabeça."},
-    {"falante": "Médico", "texto": "Há quanto tempo?"}
-  ],
-  "diagnostico_provavel": "Cefaleia Tensional",
-  "doencas_associadas": ["Enxaqueca", "Sinusite"],
-  "exames_sugeridos": ["Tomografia Computadorizada"],
-  "medicamentos_comuns": ["Dipirona", "Ibuprofeno"]
-} 
+    "dialogo_estruturado": [
+      {"falante": "Paciente", "texto": "Estou com dor de cabeça."},
+      {"falante": "Médico", "texto": "Há quanto tempo?"}
+    ],
+    "diagnostico_provavel": "Cefaleia Tensional",
+    "doencas_associadas": ["Enxaqueca", "Sinusite"],
+    "exames_sugeridos": ["Tomografia Computadorizada"],
+    "medicamentos_comuns": ["Dipirona", "Ibuprofeno"]
+  }
   ```
 
 ## 🛠️ Stack Tecnológica
